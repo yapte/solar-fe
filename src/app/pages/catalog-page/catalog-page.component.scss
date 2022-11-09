@@ -1,0 +1,13 @@
+.in-progress {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, .24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.danger {
+    color: red;
+    font-size: 36px;
+}

@@ -1,0 +1,17 @@
+<div class="wrap col" @pageAnimation>
+    <h2> Catalog </h2>
+
+    <div *ngIf="error$ |async as error" class="danger" @pageAnimation>
+        {{error}}
+    </div>
+
+    <div class="col">
+        <div *ngFor="let item of todos$ |async" class="item">
+            {{item.name}}
+        </div>
+    </div>
+</div>
+
+<div *ngIf="inProgress$ |async" class="in-progress">
+    In progress
+</div>
