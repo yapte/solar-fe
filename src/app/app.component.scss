@@ -1,0 +1,26 @@
+:host {
+    display: flex;
+    flex-direction: column;
+
+}
+
+app-header {
+    position: sticky;
+    top: 0;
+    padding: 24px;
+    background-color: #efefef;
+}
+
+main {
+    min-height: 120vh;
+    padding: 24px;
+}
+
+app-footer {
+    padding: 24px;
+    background-color: #efefef;
+}
+
+body {
+    margin: 0;
+}

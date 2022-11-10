@@ -1,0 +1,27 @@
+input,
+textarea {}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {}
+
+.row {
+    display: flex;
+    gap: 12px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}

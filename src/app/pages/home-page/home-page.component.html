@@ -1,0 +1,9 @@
+<div class="wrap col" @pageAnimation>
+    <h2> Home page </h2>
+
+    <div class="col">
+        <h4> images </h4>
+
+        <img *ngFor="let i of [1,2,3,4,5]" [src]="'/assets/images/nature-0' + i + '.jpg'" alt="">
+    </div>
+</div>
